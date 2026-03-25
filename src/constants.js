@@ -32,11 +32,11 @@ import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
 import ecommere from './assets/work_logo/e_commere.png';
-import pasteappLogo from './assets/work_logo/paste_app.png';
+import chatgpt from './assets/work_logo/chatgpt.png';
 import weatherappLogo from './assets/work_logo/weatherapp.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import chatapp from './assets/work_logo/chatapp.png';
+import hostel_booking from './assets/work_logo/hostel-booking.png';
+import job_portal from './assets/work_logo/job_portal.png';
 
 
 
@@ -130,9 +130,9 @@ export const SkillsInfo = [
       description:
         "A modern and responsive e-commerce website built using React and Tailwind CSS, featuring real-time product data fetched via APIs. The application supports product browsing, search, and a smooth user experience across all devices.",
       image: ecommere,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/hegderushikesh/E-commerce.git",
-      webapp: "https://rushikesh-ecommerce.netlify.app/",
+      tags: ["React JS", "Tailwind CSS", "Node JS", "Express JS", "MongoDB","stripe","cloudinary"],
+      github: "https://github.com/hegderushikesh/E-COMMMERE",
+      webapp: "https://e-commmere-frontend.vercel.app",
     },
     {
       id: 1,
@@ -140,48 +140,48 @@ export const SkillsInfo = [
       description:
         "A responsive weather app built using React and Tailwind CSS that fetches real-time weather data using APIs. It displays current temperature, weather conditions, and location-based forecasts with a clean and user-friendly interface.",
       image: weatherappLogo,
-      tags: ["React JS", "HTML", "CSS", "JavaScript"],
+      tags: ["React JS", "Tailwind CSS","ML","Node js","Express","MongoDB" ],
       github: "https://github.com/hegderushikesh/weather-app.git",
       webapp: "https://weather-app-rouge-seven.vercel.app/",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Hostel Booking App",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/hegderushikesh/movie-recommendation-app.git",
-      webapp: "https://movies-recommdations-app.netlify.app/",
+        "A React-based web application that provides hostel booking services based on different criteria, such as location, amenities, and user preferences. The intuitive design and smooth experience make it a go-to app for students and travelers.",
+      image: hostel_booking,
+      tags: ["React JS", "Tailwind CSS", "API", "Node JS", "Express JS", "MongoDB","cloudinary","clerk"],
+      github: "https://github.com/hegderushikesh/Hostel-Booking",
+      webapp: "https://hostel-booking-theta-five.vercel.app",
     },
     {
       id: 3,
-      title: "password-generator",
+      title: "mini-chatgpt",
       description:
         "Developed a secure and user-friendly password generator using React and Tailwind CSS. The application allows users to generate strong passwords by selecting length and character types such as uppercase, lowercase, numbers, and symbols.",
-      image: pasteappLogo,
-      tags: ["React JS", "Tailwind CSS", "Validation"],
-      github: "https://github.com/hegderushikesh/paste-app.git",
-      webapp: "https://paste-app-01.netlify.app/",
+      image: chatgpt,
+      tags: ["React JS", "Tailwind CSS", "API","Node JS", "Express JS","Gemini Key","MongoDB"],
+      github: "https://github.com/hegderushikesh/mini-Chatgpt",
+      webapp: "https://mini-chatgpt-phi.vercel.app",
     },
     {
       id: 4,
-      title: "Image Search App",
+      title: "Chat App",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/hegderushikesh/image-search-app",
-      webapp: "https://image-search-app0101.netlify.app/",
+        "A React.js-based chat application that allows users to communicate in real-time with friends and colleagues. Built using external APIs to ensure a seamless and responsive user experience.",
+      image: chatapp,
+      tags: ["React JS", "API", "Socket.IO", "Tailwind CSS", "Node JS","MongoDB","express js"],
+      github: "https://github.com/hegderushikesh/Chat-App",
+      webapp: "https://chats-app-mu.vercel.app",
     },
     {
       id: 5,
       title: "Online Job Portal",
       description:
         "The Online Job Portal is a modern, responsive web application built using React.js, Tailwind CSS, and Firebase that connects job seekers with recruiters on a single platform. The application allows users to explore job opportunities, apply for positions, and manage their profiles, while recruiters can post jobs and track applicants efficiently.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Firebase", "Tailwind CSS", "Javascript"],
-      github: "https://github.com/hegderushikesh/online-job-portal",
-      webapp: "https://online-job-portal-0001.netlify.app/",
+      image: job_portal,
+      tags: ["React JS", "API", "Firebase", "Tailwind CSS", "Next JS","MongoDB"],
+      github: "https://github.com/hegderushikesh/Job-Portal",
+      webapp: "https://job-portal-client-olive-five.vercel.app",
     },
   ];  
